@@ -23,12 +23,30 @@ h1, h2, h3  {
 }
 
 .navbar, .home-callout {
-  background: rgb(2,0,36);
+    background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,147,4,1) 8%, rgba(0,212,255,1) 100%);
 }
 
 .navbar {
   border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: white;
+  opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  opacity: 0.75;
 }
 
 .home-callout {
